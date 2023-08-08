@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+[[mods]]
+modId="casualness_delight"
+version="1.19.2-0.1a"
+displayName="Casualness Delight"
+logoFile="logo.png"
+logoBlur=false
+authors="TsukimiRen"
+description='''An addon mod for Farmer's Delight'''
+[[dependencies.casualness_delight]]
+   modId="forge"
+   mandatory=true
+   versionRange="[43,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.casualness_delight]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.19.2,1.20)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.casualness_delight]]
+modId="farmersdelight"
+mandatory=true
+versionRange="[1.19-1.2.0,)"
+ordering="AFTER"
+side="BOTH"

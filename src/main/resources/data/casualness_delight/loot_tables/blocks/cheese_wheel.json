@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "casualness_delight:cheese_wheel",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "casualness_delight:cheese_wheel",
+              "properties": {
+                "bites": "0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

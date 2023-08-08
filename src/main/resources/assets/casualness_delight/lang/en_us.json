@@ -1,0 +1,20 @@
+{
+  "itemGroup.casualness_delight": "Casualness Delight",
+  "item.casualness_delight.fish_and_chips": "Fish and Chips",
+  "item.casualness_delight.stargazy_pie_slice": "Stargazy pie slice",
+  "item.casualness_delight.quiche_lorraine_slice": "Quiche Lorraine slice",
+  "item.casualness_delight.beef_noodles": "Beef noodles",
+  "item.casualness_delight.yorkshire_pudding": "Yorkshire Pudding",
+  "item.casualness_delight.cheese_wheel_slice": "Cheese wheel slice",
+  "block.casualness_delight.stargazy_pie": "Stargazy pie",
+  "block.casualness_delight.quiche_lorraine": "Quiche Lorraine",
+  "block.casualness_delight.raw_cheese_wheel": "Raw cheese wheel",
+  "block.casualness_delight.cheese_wheel": "Cheese wheel",
+  "casualness_delight.advancement.consume_beef_noodles": "Kill that Shijiazhuang man",
+  "casualness_delight.advancement.consume_beef_noodles_description": "Coming to a bowl of authentic Anhui beef noodles?",
+  "casualness_delight.advancement.consume_stargazy_pie_slice": "The fish's eyes flashed with an eerie light",
+  "casualness_delight.advancement.consume_stargazy_pie_slice_description": "A puff pastry pie with an eerie gleam in the eyes of the fish on it, believe me, you won't want to eat it...",
+  "casualness_delight.advancement.get_cheese_wheel":"Cheese, share with you",
+  "casualness_delight.advancement.get_cheese_wheel_description":"Delicious cheese to share with friends!",
+  "casualness_delight.tooltip.stargazy_pie_slice":"The fish's eyes flashed with an eerie light"
+}

@@ -1,0 +1,20 @@
+{
+  "itemGroup.casualness_delight": "随意乐事",
+  "item.casualness_delight.fish_and_chips": "炸鱼薯条",
+  "item.casualness_delight.stargazy_pie_slice": "仰望星空派切片",
+  "item.casualness_delight.quiche_lorraine_slice": "洛林乳蛋饼切片",
+  "item.casualness_delight.yorkshire_pudding": "约克郡布丁",
+  "item.casualness_delight.beef_noodles": "河北正宗安徽牛肉板面",
+  "item.casualness_delight.cheese_wheel_slice": "芝士片",
+  "block.casualness_delight.stargazy_pie": "仰望星空派",
+  "block.casualness_delight.quiche_lorraine": "洛林乳蛋饼",
+  "block.casualness_delight.raw_cheese_wheel": "生芝士轮",
+  "block.casualness_delight.cheese_wheel": "芝士轮",
+  "casualness_delight.advancement.consume_beef_noodles": "杀不死的石家庄人",
+  "casualness_delight.advancement.consume_beef_noodles_description": "如此生活三十年~厉害了，我的国际庄~",
+  "casualness_delight.advancement.consume_stargazy_pie_slice": "仰望星空还是死不瞑目？",
+  "casualness_delight.advancement.consume_stargazy_pie_slice_description": "酥皮派上的鱼，眼睛中闪烁着诡异的光...相信我，你不会想吃它的，除非你想见识真正的黑暗...",
+  "casualness_delight.advancement.get_cheese_wheel":"芝士，与你分享",
+  "casualness_delight.advancement.get_cheese_wheel_description":"跟我一起大声念！Cheese！",
+  "casualness_delight.tooltip.stargazy_pie_slice":"鱼的眼睛闪烁着诡异的光"
+}

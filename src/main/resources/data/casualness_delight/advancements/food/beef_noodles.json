@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "casualness_delight:beef_noodles"
+    },
+    "title": {
+      "translate": "casualness_delight.advancement.consume_beef_noodles"
+    },
+    "description": {
+      "translate": "casualness_delight.advancement.consume_beef_noodles_description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "beef_noodles": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item":
+        {
+          "items": [
+            "casualness_delight:beef_noodles"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "beef_noodles"
+    ]
+  ]
+}
