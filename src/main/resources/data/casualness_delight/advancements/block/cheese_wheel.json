@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "casualness_delight:cheese_wheel"
+    },
+    "title": {
+      "translate":"casualness_delight.advancement.get_cheese_wheel"
+    },
+    "description": {
+      "translate":"casualness_delight.advancement.get_cheese_wheel_description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "casualness_delight:food/stargazy_pie",
+  "criteria": {
+    "cheese_wheel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "casualness_delight:cheese_wheel"
+            ]
+          }
+        ]
+      }
+    },
+    "cheese_wheel_slice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "casualness_delight:cheese_wheel_slice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cheese_wheel",
+      "cheese_wheel_slice"
+    ]
+  ]
+}

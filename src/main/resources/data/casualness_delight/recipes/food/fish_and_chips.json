@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cod_slice"
+    },
+    {
+      "tag": "forge:crops/potato"
+    },
+    {
+      "tag": "forge:crops/potato"
+    },
+    {
+      "tag": "forge:flour"
+    }
+  ],
+  "result": {
+    "item": "casualness_delight:fish_and_chips"
+  },
+  "cookingtime": 200
+}
