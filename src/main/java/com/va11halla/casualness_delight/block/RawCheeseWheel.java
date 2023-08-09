@@ -22,7 +22,7 @@ import vectorwing.farmersdelight.common.registry.ModBlocks;
 import java.util.Iterator;
 
 public class RawCheeseWheel extends Block{
-    protected static final VoxelShape SHAPE = Block.box(1.0D, 0.0D, 1.0D, 15.0D, 8.0D, 15.0D);;
+    protected static final VoxelShape SHAPE = Block.box(1.0D, 0.0D, 1.0D, 15.0D, 8.0D, 15.0D);
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         return SHAPE;
     }
