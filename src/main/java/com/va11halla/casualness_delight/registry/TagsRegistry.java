@@ -26,7 +26,7 @@ public class TagsRegistry {
         FERMENT_ACTIVATORS = create("ferment_activators", Registry.BLOCK_KEY);
     }
     public static void register(){
-        CasualnessDelightFabric.LOGGER.info("Registering Mod Blocks for " + CasualnessDelightFabric.MODID);
+        CasualnessDelightFabric.LOGGER.info("Registering Mod Tags for " + CasualnessDelightFabric.MODID);
     }
 }
 

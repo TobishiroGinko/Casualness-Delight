@@ -47,13 +47,15 @@ public class TooltipItem extends Item {
         this.hasFoodEffectTooltip = hasFoodEffectTooltip;
         this.hasCustomTooltip = hasCustomTooltip;
     }
-
+    private static MutableText i18n(String key, Object... args) {
+        return Text.translatable("casualness_delight." + key, args);
+    }
     @Environment(EnvType.CLIENT)
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         super.appendTooltip(stack, world, tooltip, context);
         if (FarmersDelightMod.CONFIG.isFoodEffectTooltip()) {
             if (this.hasCustomTooltip) {
-                tooltip.add(FarmersDelightMod.i18n("tooltip." + this, new Object[0]).formatted(Formatting.BLUE));
+                tooltip.add(i18n("tooltip." + this, new Object[0]).formatted(Formatting.BLUE));
             }
 
             if (this.hasFoodEffectTooltip) {
