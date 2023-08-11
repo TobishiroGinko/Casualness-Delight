@@ -2,6 +2,7 @@ package com.va11halla.casualness_delight;
 
 import com.mojang.logging.LogUtils;
 import com.va11halla.casualness_delight.registry.BlockRegistry;
+import com.va11halla.casualness_delight.registry.EffectRegistry;
 import com.va11halla.casualness_delight.registry.ItemRegistry;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
@@ -39,6 +40,7 @@ public class Casualness_Delight {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemRegistry.ITEMS.register(eventBus);
         BlockRegistry.BLOCKS.register(eventBus);
+        EffectRegistry.EFFECTS.register(eventBus);
         eventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
