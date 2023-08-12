@@ -16,5 +16,7 @@ public class FoodList {
     public static final FoodProperties PhantomDumplings = new FoodProperties.Builder().nutrition(8).saturationMod(0.8F).effect(() -> new MobEffectInstance(MobEffects.SLOW_FALLING,1200,0), 1).effect(() -> new MobEffectInstance(MobEffects.BLINDNESS,300,0), 0.5F).build();
     public static final FoodProperties PhantomPuff = new FoodProperties.Builder().nutrition(4).saturationMod(0.8F).effect(() -> new MobEffectInstance(MobEffects.SLOW_FALLING,800,0), 1).build();
     public static final FoodProperties SpicyStrips = new FoodProperties.Builder().nutrition(3).saturationMod(0.5F).effect(() -> new MobEffectInstance(EffectRegistry.RottenEffect.get(),1200,0),0.8F).effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED,600,1), 1).build();
+    public static final FoodProperties GreenTongue = new FoodProperties.Builder().nutrition(3).saturationMod(0.2F).alwaysEat().fast().effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE,160,0), 1).effect(() -> new MobEffectInstance(MobEffects.JUMP,300,2), 1).build();
+    public static final FoodProperties RoastGluten = new FoodProperties.Builder().nutrition(8).saturationMod(1F).alwaysEat().fast().build();
 }
-//
+//RawGluten

@@ -35,9 +35,21 @@ public class  ItemRegistry {
     public static final RegistryObject<Item> CheeseWheelSlice = ITEMS.register("cheese_wheel_slice",
             ()-> new SliceItem(new Item.Properties().food(FoodList.CheeseWheelSlice).tab(Casualness_Delight.CasualnessDelightTab)));
     public static final RegistryObject<Item> PhantomDumplings = ITEMS.register("phantom_dumplings",
-            ()-> new Item(new Item.Properties().food(FoodList.PhantomDumplings).tab(Casualness_Delight.CasualnessDelightTab)));
+            ()-> new ConsumableItem(new Item.Properties().food(FoodList.PhantomDumplings).tab(Casualness_Delight.CasualnessDelightTab)));
     public static final RegistryObject<Item> PhantomPuff = ITEMS.register("phantom_puff",
-            ()-> new Item(new Item.Properties().food(FoodList.PhantomPuff).tab(Casualness_Delight.CasualnessDelightTab)));
+            ()-> new ConsumableItem(new Item.Properties().food(FoodList.PhantomPuff).tab(Casualness_Delight.CasualnessDelightTab)));
     public static final RegistryObject<Item> SpicyStrips = ITEMS.register("spicy_strips",
-            ()-> new Item(new Item.Properties().food(FoodList.SpicyStrips).tab(Casualness_Delight.CasualnessDelightTab)));
+            ()-> new ConsumableItem(new Item.Properties().food(FoodList.SpicyStrips).tab(Casualness_Delight.CasualnessDelightTab),true));
+    public static final RegistryObject<Item> GreenTongue = ITEMS.register("green_tongue",
+            ()-> new ConsumableItem(new Item.Properties().food(FoodList.GreenTongue).tab(Casualness_Delight.CasualnessDelightTab),true));
+    //Gluten
+    public static final RegistryObject<Item> RawGluten = ITEMS.register("raw_gluten",
+            ()-> new ConsumableItem(new Item.Properties().tab(Casualness_Delight.CasualnessDelightTab)));
+    public static final RegistryObject<Item> Gluten = ITEMS.register("gluten",
+            ()-> new ConsumableItem(new Item.Properties().tab(Casualness_Delight.CasualnessDelightTab)));
+    public static final RegistryObject<Item> GlutenSkewer = ITEMS.register("gluten_skewer",
+            ()-> new ConsumableItem(new Item.Properties().tab(Casualness_Delight.CasualnessDelightTab)));
+    public static final RegistryObject<Item> RoastGluten = ITEMS.register("roast_gluten",
+            ()-> new ConsumableItem(new Item.Properties().food(FoodList.RoastGluten).craftRemainder(Items.STICK).tab(Casualness_Delight.CasualnessDelightTab)));
 }
+//
