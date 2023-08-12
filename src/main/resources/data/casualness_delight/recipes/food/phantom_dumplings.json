@@ -4,7 +4,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "minecraft:phantom_membrane"
+      "item": "minecraft:phantom_membrane"
     },
     {
       "tag": "forge:crops/cabbage"
