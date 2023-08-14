@@ -6,13 +6,13 @@
       "item": "farmersdelight:cod_slice"
     },
     {
-      "tag": "forge:crops/potato"
+      "tag": "c:vegetables/potato"
     },
     {
-      "tag": "forge:crops/potato"
+      "tag": "c:vegetables/potato"
     },
     {
-      "tag": "forge:flour"
+      "tag": "c:dough"
     }
   ],
   "result": {

@@ -29,13 +29,30 @@ public enum ItemRegistry {
     StargazyPie("stargazy_pie",
             () -> new BlockItem(BlockRegistry.StargazyPie, new FabricItemSettings().group(ItemTab.ITEM_GROUP))),
     StargazyPieSlice("stargazy_pie_slice",
-            ()-> new TooltipItem(new FabricItemSettings().food(FoodList.QuicheLorraineSlice).group(ItemTab.ITEM_GROUP), false,true)),
+            ()-> new TooltipItem(new FabricItemSettings().food(FoodList.StargazyPieSlice).group(ItemTab.ITEM_GROUP), false,true)),
     RawCheeseWheel("raw_cheese_wheel",
             () -> new BlockItem(BlockRegistry.RawCheeseWheel, new FabricItemSettings().group(ItemTab.ITEM_GROUP))),
     CheeseWheel("cheese_wheel",
             () -> new BlockItem(BlockRegistry.CheeseWheel, new FabricItemSettings().group(ItemTab.ITEM_GROUP))),
     CheeseWheelSlice("cheese_wheel_slice",
-            ()-> new TooltipItem(new FabricItemSettings().food(FoodList.CheeseWheelSlice).group(ItemTab.ITEM_GROUP)))
+            ()-> new TooltipItem(new FabricItemSettings().food(FoodList.CheeseWheelSlice).group(ItemTab.ITEM_GROUP))),
+    PhantomDumplings("phantom_dumplings",
+            ()-> new ConsumableItem(new FabricItemSettings().food(FoodList.PhantomDumplings).group(ItemTab.ITEM_GROUP),true)),
+    PhantomPuff("phantom_puff",
+            ()-> new ConsumableItem(new FabricItemSettings().food(FoodList.PhantomPuff).group(ItemTab.ITEM_GROUP),true)),
+    SpicyStrips("spicy_strips",
+            ()-> new ConsumableItem(new FabricItemSettings().food(FoodList.SpicyStrips).group(ItemTab.ITEM_GROUP),true)),
+    GreenTongue("green_tongue",
+            ()-> new ConsumableItem(new FabricItemSettings().food(FoodList.GreenTongue).group(ItemTab.ITEM_GROUP),true)),
+    //Gluten
+    RawGluten("raw_gluten",
+            ()-> new ConsumableItem(new FabricItemSettings().group(ItemTab.ITEM_GROUP))),
+    Gluten("gluten",
+            ()-> new ConsumableItem(new FabricItemSettings().group(ItemTab.ITEM_GROUP))),
+    GlutenSkewer("gluten_skewer",
+            ()-> new ConsumableItem(new FabricItemSettings().group(ItemTab.ITEM_GROUP))),
+    RoastGluten("roast_gluten",
+            ()-> new ConsumableItem(new FabricItemSettings().food(FoodList.RoastGluten).recipeRemainder(Items.STICK).group(ItemTab.ITEM_GROUP))),
     ;
     private final String pathName;
     private final Supplier<Item> itemSupplier;

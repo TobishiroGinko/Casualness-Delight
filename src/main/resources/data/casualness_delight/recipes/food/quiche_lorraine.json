@@ -5,7 +5,7 @@
       "item": "farmersdelight:pie_crust"
     },
     "m": {
-      "tag": "forge:milk"
+      "tag": "c:milk"
     },
     "D": {
       "item": "farmersdelight:smoked_ham"
@@ -14,7 +14,7 @@
       "item": "farmersdelight:cooked_bacon"
     },
     "e": {
-      "tag": "forge:eggs"
+      "tag": "c:eggs"
     }
   },
   "pattern": [

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "c:dough"
+    }
+  ],
+  "result": {
+    "item": "casualness_delight:raw_gluten"
+  }
+}

@@ -8,16 +8,16 @@
       "item": "minecraft:beef"
     },
     {
-      "tag": "forge:pasta"
+      "tag": "c:pasta"
     },
     {
-      "tag": "forge:crops/carrot"
+      "tag": "c:vegetables/carrot"
     },
     {
-      "tag": "forge:crops/cabbage"
+      "tag": "c:crops/cabbage"
     },
     {
-      "tag": "forge:crops/onion"
+      "tag": "c:vegetables/onion"
     }
   ],
   "result": {
