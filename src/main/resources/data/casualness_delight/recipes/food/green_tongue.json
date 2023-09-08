@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "tag": "forge:rods/wooden"
+    },
+    "i": [
+      {
+        "item": "minecraft:ice"
+      },
+      {
+        "tag": "forge:ice_cubes"
+      }
+    ],
+    "S": {
+      "item": "minecraft:slime_ball"
+    },
+    "D": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    " DS",
+    "iSD",
+    "li "
+  ],
+  "result": {
+    "item": "casualness_delight:green_tongue"
+  }
+}

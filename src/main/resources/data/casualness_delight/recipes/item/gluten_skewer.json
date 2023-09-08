@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "tag": "forge:rods/wooden"
+    },
+    "D": {
+      "item": "casualness_delight:gluten"
+    }
+  },
+  "pattern": [
+    " D",
+    "l "
+  ],
+  "result": {
+    "item": "casualness_delight:gluten_skewer"
+  }
+}
