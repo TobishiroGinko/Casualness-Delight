@@ -3,22 +3,22 @@
   "recipe_book_tab": "misc",
   "ingredients": [
     {
-      "tag": "c:milk"
+      "tag": "forge:milk"
     },
     {
-      "tag": "c:milk"
+      "tag": "forge:milk"
     },
     {
-      "tag": "c:milk"
+      "tag": "forge:milk"
     },
     {
-      "tag": "c:mushrooms"
+      "tag": "forge:mushrooms"
     },
     {
-      "tag": "c:mushrooms"
+      "tag": "forge:mushrooms"
     },
     {
-      "tag": "c:mushrooms"
+      "tag": "forge:mushrooms"
     }
   ],
   "result": {
