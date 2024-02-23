@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:deep_frying",
+  "ingredient": {
+    "item": "casualness_delight:raw_spring_roll"
+  },
+  "cookingtime": 100,
+  "result": "casualness_delight:spring_roll"
+}

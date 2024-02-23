@@ -1,0 +1,109 @@
+{
+  "variants": {
+    "facing=east,servings=0": {
+      "model": "casualness_delight:block/bobo_chicken_0",
+      "y": 90
+    },
+    "facing=east,servings=1": {
+      "model": "casualness_delight:block/bobo_chicken_1",
+      "y": 90
+    },
+    "facing=east,servings=2": {
+      "model": "casualness_delight:block/bobo_chicken_2",
+      "y": 90
+    },
+    "facing=east,servings=3": {
+      "model": "casualness_delight:block/bobo_chicken_3",
+      "y": 90
+    },
+    "facing=east,servings=4": {
+      "model": "casualness_delight:block/bobo_chicken_4",
+      "y": 90
+    },
+    "facing=east,servings=5": {
+      "model": "casualness_delight:block/bobo_chicken_5",
+      "y": 90
+    },
+    "facing=east,servings=6": {
+      "model": "casualness_delight:block/bobo_chicken_6",
+      "y": 90
+    },
+    "facing=north,servings=0": {
+      "model": "casualness_delight:block/bobo_chicken_0"
+    },
+    "facing=north,servings=1": {
+      "model": "casualness_delight:block/bobo_chicken_1"
+    },
+    "facing=north,servings=2": {
+      "model": "casualness_delight:block/bobo_chicken_2"
+    },
+    "facing=north,servings=3": {
+      "model": "casualness_delight:block/bobo_chicken_3"
+    },
+    "facing=north,servings=4": {
+      "model": "casualness_delight:block/bobo_chicken_4"
+    },
+    "facing=north,servings=5": {
+      "model": "casualness_delight:block/bobo_chicken_5"
+    },
+    "facing=north,servings=6": {
+      "model": "casualness_delight:block/bobo_chicken_6"
+    },
+    "facing=south,servings=0": {
+      "model": "casualness_delight:block/bobo_chicken_0",
+      "y": 180
+    },
+    "facing=south,servings=1": {
+      "model": "casualness_delight:block/bobo_chicken_1",
+      "y": 180
+    },
+    "facing=south,servings=2": {
+      "model": "casualness_delight:block/bobo_chicken_2",
+      "y": 180
+    },
+    "facing=south,servings=3": {
+      "model": "casualness_delight:block/bobo_chicken_3",
+      "y": 180
+    },
+    "facing=south,servings=4": {
+      "model": "casualness_delight:block/bobo_chicken_4",
+      "y": 180
+    },
+    "facing=south,servings=5": {
+      "model": "casualness_delight:block/bobo_chicken_5",
+      "y": 180
+    },
+    "facing=south,servings=6": {
+      "model": "casualness_delight:block/bobo_chicken_6",
+      "y": 180
+    },
+    "facing=west,servings=0": {
+      "model": "casualness_delight:block/bobo_chicken_0",
+      "y": 270
+    },
+    "facing=west,servings=1": {
+      "model": "casualness_delight:block/bobo_chicken_1",
+      "y": 270
+    },
+    "facing=west,servings=2": {
+      "model": "casualness_delight:block/bobo_chicken_2",
+      "y": 270
+    },
+    "facing=west,servings=3": {
+      "model": "casualness_delight:block/bobo_chicken_3",
+      "y": 270
+    },
+    "facing=west,servings=4": {
+      "model": "casualness_delight:block/bobo_chicken_4",
+      "y": 270
+    },
+    "facing=west,servings=5": {
+      "model": "casualness_delight:block/bobo_chicken_5",
+      "y": 270
+    },
+    "facing=west,servings=6": {
+      "model": "casualness_delight:block/bobo_chicken_6",
+      "y": 270
+    }
+  }
+}

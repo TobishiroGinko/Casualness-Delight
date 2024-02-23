@@ -1,0 +1,102 @@
+{
+  "variants": {
+    "bites=0": [
+      {
+        "model": "casualness_delight:block/cheese_wheel"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel"
+      }
+    ],
+    "bites=1":[
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice1"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice1"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice1"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice1"
+      }
+    ],
+    "bites=2":[
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice2"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice2"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice2"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice2"
+      }
+    ],
+    "bites=3": [
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice3"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice3"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice3"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice3"
+      }
+    ],
+    "bites=4":[
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice4"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice4"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice4"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice4"
+      }
+    ],
+    "bites=5":[
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice5"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice5"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice5"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice5"
+      }
+    ],
+    "bites=6":[
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice6"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice6"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice6"
+      },
+      {
+        "model": "casualness_delight:block/cheese_wheel_slice6"
+      }
+    ]
+  }
+}

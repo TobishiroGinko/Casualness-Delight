@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "casualness_delight",
+  "version": "1.20.1-0.3a",
+  "name": "Casualness Delight Fabric",
+  "description": "",
+  "authors": ["TsukimiRenko"],
+  "contact": {
+    "repo": "https://github.com/TsukimiRen/Casualness-Delight"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.va11halla.casualness_delight.client.CasualnessDelightFabricClient"
+    ],
+    "main": [
+      "com.va11halla.casualness_delight.CasualnessDelightFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20.1",
+    "farmersdelight": "*"
+  }
+}

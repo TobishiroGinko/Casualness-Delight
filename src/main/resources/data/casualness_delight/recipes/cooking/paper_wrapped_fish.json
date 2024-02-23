@@ -1,0 +1,38 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:cod"
+      }
+    ],
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:vegetables/potato"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:vegetables/potato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "casualness_delight:paper_wrapped_fish"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

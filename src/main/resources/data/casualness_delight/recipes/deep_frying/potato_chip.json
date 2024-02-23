@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:deep_frying",
+  "ingredient": {
+    "item": "casualness_delight:potato_slice"
+  },
+  "cookingtime": 100,
+  "result": "casualness_delight:potato_chip"
+}

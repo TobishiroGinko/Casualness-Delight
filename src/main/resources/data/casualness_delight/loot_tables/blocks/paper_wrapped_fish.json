@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "casualness_delight:paper_wrapped_fish",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "casualness_delight:paper_wrapped_fish",
+              "properties": {
+                "servings": "4",
+                "part": "head"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pool2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:block_state_property",
+            "block": "casualness_delight:paper_wrapped_fish",
+            "properties": {
+              "servings": "4"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "casualness_delight:paper_wrapped_fish",
+          "properties": {
+            "part": "head"
+          }
+        }
+      ]
+    }
+  ]
+}
