@@ -1,0 +1,8 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "ingredient": {
+    "item": "casualness_delight:raw_fried_dumpling"
+  },
+  "cookingtime": 100,
+  "result": "casualness_delight:fried_dumpling"
+}

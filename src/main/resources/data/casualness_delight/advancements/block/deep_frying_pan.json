@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "deep_frying_pan": {
+      "conditions": {
+        "location": [
+          {
+            "block": "casualness_delight:deep_frying_pan",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "casualness_delight.advancement.place_deep_frying_pan_description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "casualness_delight:deep_frying_pan"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "casualness_delight.advancement.place_deep_frying_pan"
+    }
+  },
+  "requirements": [
+    [
+      "deep_frying_pan"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

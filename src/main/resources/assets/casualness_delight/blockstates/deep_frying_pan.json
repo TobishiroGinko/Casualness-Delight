@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,support=false": {
+      "model": "casualness_delight:block/deep_frying_pan"
+    },
+    "facing=south,support=false": {
+      "model": "casualness_delight:block/deep_frying_pan",
+      "y": 180
+    },
+    "facing=west,support=false": {
+      "model": "casualness_delight:block/deep_frying_pan",
+      "y": 270
+    },
+    "facing=east,support=false": {
+      "model": "casualness_delight:block/deep_frying_pan",
+      "y": 90
+    },
+    "facing=north,support=true": {
+      "model": "casualness_delight:block/deep_frying_pan_tray"
+    },
+    "facing=south,support=true": {
+      "model": "casualness_delight:block/deep_frying_pan_tray",
+      "y": 180
+    },
+    "facing=west,support=true": {
+      "model": "casualness_delight:block/deep_frying_pan_tray",
+      "y": 270
+    },
+    "facing=east,support=true": {
+      "model": "casualness_delight:block/deep_frying_pan_tray",
+      "y": 90
+    }
+  }
+}

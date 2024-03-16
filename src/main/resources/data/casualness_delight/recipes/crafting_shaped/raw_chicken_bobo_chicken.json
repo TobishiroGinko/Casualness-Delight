@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "tag": "forge:raw_chicken"
+    }
+  },
+  "pattern": [
+    " D",
+    "l "
+  ],
+  "result": {
+    "item": "casualness_delight:raw_chicken_bobo_chicken"
+  }
+}

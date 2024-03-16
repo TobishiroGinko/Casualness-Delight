@@ -1,0 +1,8 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "ingredient": {
+    "item": "farmersdelight:chicken_cuts"
+  },
+  "cookingtime": 100,
+  "result": "casualness_delight:fried_chicken_chip"
+}
