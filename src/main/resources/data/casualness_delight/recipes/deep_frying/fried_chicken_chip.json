@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:deep_frying",
+  "type": "casualness_delight:deep_frying",
   "ingredient": {
     "item": "farmersdelight:chicken_cuts"
   },

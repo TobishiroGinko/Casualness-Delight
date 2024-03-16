@@ -6,7 +6,6 @@ package com.va11halla.casualness_delight.block;
 //
 
 
-import com.nhoryzon.mc.farmersdelight.entity.block.SkilletBlockEntity;
 import com.va11halla.casualness_delight.enity.DeepFryingPanEntity;
 import com.va11halla.casualness_delight.registry.BlockEntityTypesRegistry;
 import com.nhoryzon.mc.farmersdelight.registry.SoundsRegistry;
@@ -135,7 +134,7 @@ public class DeepFryingPan extends BlockWithEntity {
         DeepFryingPanEntity deepFryingPanEntity = (DeepFryingPanEntity)world.getBlockEntity(pos);
         NbtCompound nbt = new NbtCompound();
         if (deepFryingPanEntity != null) {
-            deepFryingPanEntity.writeSkilletItem(nbt);
+            deepFryingPanEntity.writeDeepFryingPanItem(nbt);
         }
 
         if (!nbt.isEmpty()) {

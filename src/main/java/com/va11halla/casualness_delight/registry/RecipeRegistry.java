@@ -2,36 +2,51 @@ package com.va11halla.casualness_delight.registry;
 
 import com.va11halla.casualness_delight.CasualnessDelightFabric;
 import com.va11halla.casualness_delight.recipe.DeepFryingRecipe;
+import net.minecraft.inventory.Inventory;
+import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.RecipeSerializer;
 import net.minecraft.recipe.RecipeType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+
 public enum RecipeRegistry {
-    DEEP_FRYING("deep_frying", DeepFryingRecipe.Type.DEEP_FRYING, DeepFryingRecipe.DEEP_FRYING_SERIALIZER);
+    DEEP_FRYING_SERIALIZER("deep_frying", DeepFryingRecipe.class, DeepFryingRecipe.Serializer.INSTANCE);
+
     private final String pathName;
-    private final RecipeType recipeType;
-    private final RecipeSerializer recipeSerializer;
+    private final Class<? extends Recipe<? extends Inventory>> recipeClass;
+    private final RecipeSerializer<? extends Recipe<? extends Inventory>> serializer;
+    private RecipeType<? extends Recipe<? extends Inventory>> type;
 
-    RecipeRegistry(String pathName, RecipeType recipeType, RecipeSerializer recipeSerializer) {
+    RecipeRegistry(String pathName, Class<? extends Recipe<? extends Inventory>> recipeClass,
+                   RecipeSerializer<? extends Recipe<? extends Inventory>> serializer) {
         this.pathName = pathName;
-        this.recipeType = recipeType;
-        this.recipeSerializer = recipeSerializer;
-
+        this.recipeClass = recipeClass;
+        this.serializer = serializer;
     }
 
     public static void register() {
-        RecipeRegistry[] var0 = values();
-        int var1 = var0.length;
-
-        for (int var2 = 0; var2 < var1; ++var2) {
-            RecipeRegistry value = var0[var2];
-            //Registry.register(Registries.RECIPE_SERIALIZER, new Identifier(CasualnessDelightFabric.MODID, value.pathName),
-            //        value.recipeSerializer);
-
-            Registry.register(Registries.RECIPE_TYPE, new Identifier(CasualnessDelightFabric.MODID, value.pathName),
-                    value.recipeType);
+        for (RecipeRegistry value : values()) {
+            Registry.register(Registries.RECIPE_SERIALIZER, new Identifier(CasualnessDelightFabric.MODID, value.pathName), value.serializer());
+            value.type();
         }
+    }
+
+    public RecipeSerializer<? extends Recipe<? extends Inventory>> serializer() {
+        return serializer;
+    }
+
+    @SuppressWarnings("unchecked")
+    public <T extends Recipe<? extends Inventory>> RecipeType<T> type() {
+        return (RecipeType<T>) type(this.recipeClass);
+    }
+
+    @SuppressWarnings({"unchecked","unused"})
+    private <T extends Recipe<? extends Inventory>> RecipeType<T> type(Class<T> clazz) {
+        if (type == null) {
+            type = RecipeType.register(new Identifier(CasualnessDelightFabric.MODID, pathName).toString());
+        }
+        return (RecipeType<T>) type;
     }
 }

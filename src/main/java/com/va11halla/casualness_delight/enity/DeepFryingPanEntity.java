@@ -1,7 +1,6 @@
 package com.va11halla.casualness_delight.enity;
 
 import com.nhoryzon.mc.farmersdelight.FarmersDelightMod;
-import com.nhoryzon.mc.farmersdelight.block.SkilletBlock;
 import com.nhoryzon.mc.farmersdelight.entity.block.HeatableBlockEntity;
 import com.nhoryzon.mc.farmersdelight.entity.block.SyncedBlockEntity;
 import com.nhoryzon.mc.farmersdelight.entity.block.inventory.ItemStackInventory;
@@ -27,9 +26,7 @@ import net.minecraft.network.listener.ClientPlayPacketListener;
 import net.minecraft.network.packet.Packet;
 import net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket;
 import net.minecraft.particle.ParticleTypes;
-import net.minecraft.recipe.CampfireCookingRecipe;
 import net.minecraft.recipe.Recipe;
-import net.minecraft.recipe.RecipeType;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.collection.DefaultedList;
@@ -185,15 +182,9 @@ public class DeepFryingPanEntity extends SyncedBlockEntity implements ItemStackI
         return nbtCompound;
     }
 
-    public NbtCompound writeSkilletItem(NbtCompound nbt) {
+    public NbtCompound writeDeepFryingPanItem(NbtCompound nbt) {
         nbt.put("DeepFryingPan", this.deepFryingPanStack.writeNbt(new NbtCompound()));
         return nbt;
-    }
-
-    public void setSkilletItem(ItemStack stack) {
-        this.deepFryingPanStack = stack.copy();
-        this.fireAspectLevel = EnchantmentHelper.getLevel(Enchantments.FIRE_ASPECT, stack);
-        this.inventoryChanged();
     }
 
     public ItemStack addItemToCook(ItemStack addedStack, PlayerEntity player) {

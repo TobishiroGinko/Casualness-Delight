@@ -8,6 +8,12 @@ group = project.maven_group
 
 repositories {
     maven { url 'https://www.cursemaven.com' }
+    maven { url "<https://maven.shedaniel.me/>" }
+    maven { url "https://maven.architectury.dev/" }
+    maven {
+        name = "TerraformersMC"
+        url = "https://maven.terraformersmc.com/"
+    }
 }
 
 dependencies {
@@ -18,6 +24,9 @@ dependencies {
     modImplementation "curse.maven:farmers-delight-fabric-482834:4712795"
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    modCompileOnly "dev.emi:emi-fabric:${emi_version}:api"
+    modLocalRuntime "dev.emi:emi-fabric:${emi_version}"
+
 }
 
 processResources {

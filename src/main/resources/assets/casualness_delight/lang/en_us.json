@@ -46,8 +46,6 @@
   "block.casualness_delight.sweet_rice":"Sweet Rice",
   "block.casualness_delight.spring_roll_medley":"Spring Roll Medley",
   "effect.casualness_delight.rotten": "Rotten",
-  "casualness_delight.advancement.consume_beef_noodles": "Kill that Shijiazhuang man",
-  "casualness_delight.advancement.consume_beef_noodles_description": "Coming to a bowl of authentic Anhui beef noodles?",
   "casualness_delight.advancement.consume_stargazy_pie_slice": "The fish's eyes flashed with an eerie light",
   "casualness_delight.advancement.consume_stargazy_pie_slice_description": "A puff pastry pie with an eerie gleam in the eyes of the fish on it, believe me, you won't want to eat it...",
   "casualness_delight.advancement.get_cheese_wheel":"Cheese, share with you",
@@ -56,5 +54,6 @@
   "casualness_delight.advancement.consume_bobo_chicken": "Bo Bo Chicken~Bo Bo Bo Bo Chicken",
   "casualness_delight.advancement.consume_bobo_chicken_description": "Bo Bo Chicken~Bo Bo Bo Bo Chicken~Bo Bo chicken skewers for one~",
   "casualness_delight.advancement.place_deep_frying_pan": "Crying greedily for the child next door！",
-  "casualness_delight.advancement.place_deep_frying_pan_description":"Wrap in a coat and fry until golden brown! The children next door are all crying and craving!"
+  "casualness_delight.advancement.place_deep_frying_pan_description":"Wrap in a coat and fry until golden brown! The children next door are all crying and craving!",
+  "emi.category.casualness_delight.deep_frying": "Deep frying"
 }

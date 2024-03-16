@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "casualness_delight",
-  "version": "1.20.1-0.3a",
+  "version": "1.20.1-0.4c",
   "name": "Casualness Delight Fabric",
   "description": "",
   "authors": ["TsukimiRenko"],
@@ -17,6 +17,9 @@
     ],
     "main": [
       "com.va11halla.casualness_delight.CasualnessDelightFabric"
+    ],
+    "emi": [
+      "com.va11halla.casualness_delight.integration.emi.CasualnessDelightEMIPlugin"
     ]
   },
   "depends": {

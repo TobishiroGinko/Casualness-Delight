@@ -45,8 +45,6 @@ public enum BlocksRegistry {
             Registry.register(Registries.BLOCK, new Identifier(CasualnessDelightFabric.MODID, value.pathName),value.get());
         }
     }
-    @Environment(EnvType.CLIENT)
-
     public Block get() {
         if (block == null) {
             block = blockSupplier.get();
