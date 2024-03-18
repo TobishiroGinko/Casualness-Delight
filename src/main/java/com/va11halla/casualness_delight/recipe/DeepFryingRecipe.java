@@ -29,6 +29,10 @@ public class DeepFryingRecipe extends AbstractCookingRecipe {
         super(DeepFryingRecipe.DEEP_FRYING_TYPE, id, group, category, input, output, experience, cookTime);
     }
     @Override
+    public RecipeType<?> getType() {
+        return Type.DEEP_FRYING;
+    }
+    @Override
     public ItemStack createIcon() {
         return new ItemStack(Blocks.CAMPFIRE);
     }
