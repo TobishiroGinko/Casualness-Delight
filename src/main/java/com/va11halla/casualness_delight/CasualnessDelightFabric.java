@@ -1,9 +1,6 @@
 package com.va11halla.casualness_delight;
 
-import com.va11halla.casualness_delight.registry.BlockRegistry;
-import com.va11halla.casualness_delight.registry.EffectRegistry;
-import com.va11halla.casualness_delight.registry.ItemRegistry;
-import com.va11halla.casualness_delight.registry.TagsRegistry;
+import com.va11halla.casualness_delight.registry.*;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,8 +11,10 @@ public class CasualnessDelightFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         ItemRegistry.register();
-        BlockRegistry.register();
+        BlocksRegistry.register();
         TagsRegistry.register();
         EffectRegistry.register();
+        RecipeRegistry.register();
+        BlockEntityTypesRegistry.register();
     }
 }

@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "deep_frying_pan": {
+      "conditions": {
+        "block": "casualness_delight:deep_frying_pan"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "casualness_delight.advancement.place_deep_frying_pan_description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "casualness_delight:deep_frying_pan"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "casualness_delight.advancement.place_deep_frying_pan"
+    }
+  },
+  "parent": "casualness_delight:food/stargazy_pie",
+  "requirements": [
+    [
+      "deep_frying_pan"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,3 +1,4 @@
+
 {
   "display": {
     "icon": {
@@ -14,15 +15,15 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "casualness_delight:food/beef_noodles",
+  "parent": "minecraft:husbandry/root",
   "criteria": {
     "stargazy_pie": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-          "items": [
-            "casualness_delight:stargazy_pie"
+            "items": [
+              "casualness_delight:stargazy_pie"
             ]
           }
         ]

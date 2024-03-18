@@ -1,8 +1,6 @@
 package com.va11halla.casualness_delight.block;
 
-import java.util.Iterator;
-
-import com.va11halla.casualness_delight.registry.BlockRegistry;
+import com.va11halla.casualness_delight.registry.BlocksRegistry;
 import com.va11halla.casualness_delight.registry.TagsRegistry;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -17,13 +15,14 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.state.property.Property;
-import net.minecraft.tag.FluidTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.LightType;
 import net.minecraft.world.World;
+
+import java.util.Iterator;
 
 public class RawCheeseWheel extends Block {
     protected static final VoxelShape SHAPE = Block.createCuboidShape(1.0D, 0.0D, 1.0D, 15.0D, 8.0D, 15.0D);
@@ -73,11 +72,10 @@ public class RawCheeseWheel extends Block {
                     maxLight = light;
                 }
             }
-
             chance += maxLight < 9 ? 0.2F : 0.15F;
             if (world.getRandom().nextFloat() <= chance) {
                 if ((Integer)state.get(FERMENT) == 3) {
-                    world.setBlockState(pos, BlockRegistry.CheeseWheel.getDefaultState(), 2);
+                    world.setBlockState(pos, BlocksRegistry.CheeseWheel.get().getDefaultState(), 2);
                 } else {
                     world.setBlockState(pos, (BlockState)state.with(FERMENT, (Integer)state.get(FERMENT) + 1), 2);
                 }

@@ -1,10 +1,7 @@
 package com.va11halla.casualness_delight.registry;
 
 import com.va11halla.casualness_delight.CasualnessDelightFabric;
-import net.fabricmc.fabric.impl.tag.convention.TagRegistration;
 import net.minecraft.block.Block;
-import net.minecraft.entity.EntityType;
-import net.minecraft.item.Item;
 import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -15,7 +12,7 @@ public class TagsRegistry {
 
 
     private static <E> TagKey<E> create(String pathName, RegistryKey<Registry<E>> registry) {
-        return TagKey.of(registry, new Identifier("farmersdelight", pathName));
+        return TagKey.of(registry, new Identifier("casualness_delight", pathName));
     }
 
     private TagsRegistry() throws InstantiationException {
@@ -29,4 +26,3 @@ public class TagsRegistry {
         CasualnessDelightFabric.LOGGER.info("Registering Mod Tags for " + CasualnessDelightFabric.MODID);
     }
 }
-

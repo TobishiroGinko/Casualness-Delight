@@ -2,8 +2,8 @@ package com.va11halla.casualness_delight.registry;
 
 import com.va11halla.casualness_delight.effect.RottenEffect;
 import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.util.Identifier;
 
 public enum EffectRegistry {
     ROTTEN("rotten", new RottenEffect());

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "casualness_delight:spring_roll"
+    },
+    "W": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SSS",
+    " W "
+  ],
+  "result": {
+    "item": "casualness_delight:spring_roll_medley"
+  }
+}

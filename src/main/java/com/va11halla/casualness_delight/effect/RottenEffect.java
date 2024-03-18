@@ -17,11 +17,11 @@ public class RottenEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         boolean bl;
         if (!entity.getEntityWorld().isClient() && entity instanceof PlayerEntity player) {
-            if (player.world.isDay() && !player.world.isClient) {
+            if (player.getWorld().isDay() && !player.getWorld().isClient) {
                 float f = player.getBrightnessAtEyes();
                 BlockPos blockPos = new BlockPos(player.getX(), player.getEyeY(), player.getZ());
                 boolean bl2 = bl = player.isWet() || player.inPowderSnow || player.wasInPowderSnow;
-                if (f > 0.5f && random.nextFloat() * 30.0f < (f - 0.4f) * 2.0f && !bl && player.world.isSkyVisible(blockPos)) {
+                if (f > 0.5f && random.nextFloat() * 30.0f < (f - 0.4f) * 2.0f && !bl && player.getWorld().isSkyVisible(blockPos)) {
                     bl=true;
                 }
             }

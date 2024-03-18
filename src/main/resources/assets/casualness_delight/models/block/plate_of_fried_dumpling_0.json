@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "casualness_delight:block/plate_of_fried_dumpling",
+		"particle": "casualness_delight:block/plate_of_fried_dumpling"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 1, 15],
+			"faces": {
+				"north": {"uv": [0, 10, 7, 10.5], "texture": "#0"},
+				"east": {"uv": [0, 10.5, 5, 11], "texture": "#0"},
+				"south": {"uv": [0, 10, 7, 10.5], "texture": "#0"},
+				"west": {"uv": [0, 10.5, 5, 11], "texture": "#0"},
+				"up": {"uv": [7, 5, 0, 0], "texture": "#0"},
+				"down": {"uv": [7, 5, 0, 10], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "base",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "ingredient": {
+    "tag": "minecraft:fishes"
+  },
+  "cookingtime": 100,
+  "result": "casualness_delight:fried_fish"
+}

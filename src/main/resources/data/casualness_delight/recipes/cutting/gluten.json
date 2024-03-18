@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "casualness_delight:raw_gluten"
+    }
+  ],
+  "result": [
+    {
+      "item": "casualness_delight:gluten"
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

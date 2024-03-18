@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "m": {
+      "tag": "c:milk"
+    },
+    "D": {
+      "item": "farmersdelight:smoked_ham"
+    },
+    "B": {
+      "item": "farmersdelight:cooked_bacon"
+    },
+    "e": {
+      "tag": "c:eggs"
+    }
+  },
+  "pattern": [
+    "eee",
+    "BDB",
+    "mOm"
+  ],
+  "result": {
+    "item": "casualness_delight:quiche_lorraine"
+  }
+}
