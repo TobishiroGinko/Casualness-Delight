@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cod_slice"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:foods/doughs"
+    }
+  ],
+  "result": {
+    "item": "casualness_delight:fish_and_chips"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200
+}

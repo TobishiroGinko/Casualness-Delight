@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "tag": "c:crops/cabbage"
+    }
+  },
+  "pattern": [
+    " D",
+    "l "
+  ],
+  "result": {
+    "item": "casualness_delight:raw_cabbage_bobo_chicken"
+  }
+}

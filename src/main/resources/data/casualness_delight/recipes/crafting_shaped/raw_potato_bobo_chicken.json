@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "tag": "c:crops/potato"
+    }
+  },
+  "pattern": [
+    " D",
+    "l "
+  ],
+  "result": {
+    "item": "casualness_delight:raw_potato_bobo_chicken"
+  }
+}

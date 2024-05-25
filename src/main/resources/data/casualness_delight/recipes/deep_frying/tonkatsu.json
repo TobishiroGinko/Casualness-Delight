@@ -1,0 +1,8 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "ingredient": {
+    "item": "minecraft:porkchop"
+  },
+  "cookingtime": 100,
+  "result": "casualness_delight:tonkatsu"
+}

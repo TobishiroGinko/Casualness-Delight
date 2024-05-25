@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "m": {
+      "tag": "c:milks"
+    },
+    "s": {
+      "tag": "minecraft:fishes"
+    },
+    "D": {
+      "tag": "c:foods/doughs"
+    },
+    "e": {
+      "tag": "c:eggs"
+    }
+  },
+  "pattern": [
+    "sss",
+    "eDe",
+    "mOm"
+  ],
+  "result": {
+    "item": "casualness_delight:stargazy_pie"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "variants": {
+    "ferment=0": [
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_0"
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_0",
+        "y": 90
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_0",
+        "y": 180
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_0",
+        "y": 270
+      }
+    ],
+    "ferment=1": [
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_1"
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_1",
+        "y": 90
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_1",
+        "y": 180
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_1",
+        "y": 270
+      }
+    ],
+    "ferment=2": [
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_2"
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_2",
+        "y": 90
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_2",
+        "y": 180
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_2",
+        "y": 270
+      }
+    ],
+    "ferment=3": [
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_3"
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_3",
+        "y": 90
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_3",
+        "y": 180
+      },
+      {
+        "model": "casualness_delight:block/raw_cheese_wheel_3",
+        "y": 270
+      }
+    ]
+  }
+}

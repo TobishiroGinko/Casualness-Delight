@@ -1,0 +1,6 @@
+/run/
+/build/resources/
+/build/tmp/
+/build/
+/.idea/
+/.gradle/
