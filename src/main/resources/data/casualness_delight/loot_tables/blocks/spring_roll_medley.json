@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "casualness_delight:sweet_rice",
+          "name": "casualness_delight:spring_roll_medley",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",

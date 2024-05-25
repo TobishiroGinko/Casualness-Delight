@@ -12,7 +12,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.JsonHelper;
 
-
 public class DeepFryingRecipe extends AbstractCookingRecipe {
     public static final String ID  = "deep_frying";
     public static class Type implements RecipeType<DeepFryingRecipe>{
