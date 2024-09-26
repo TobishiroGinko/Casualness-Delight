@@ -1,0 +1,15 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "ingredient": [
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "cookingtime": 100,
+  "result": {
+    "id":"casualness_delight:fired_mushroom"
+  }
+}

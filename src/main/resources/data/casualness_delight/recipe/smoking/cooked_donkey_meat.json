@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "casualness_delight:raw_donkey_meat"
+  },
+  "result": {
+    "count": 1,
+    "id":"casualness_delight:cooked_donkey_meat"
+  }
+}

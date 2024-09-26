@@ -1,0 +1,7 @@
+{
+  "parent": "farmersdelight:block/crop_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "casualness_delight:block/budding_capsicum_stage0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "item": "minecraft:stick"
+    },
+    "i": {
+      "item": "minecraft:ice"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    },
+    "D": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    " DS",
+    "iSD",
+    "li "
+  ],
+  "result": {
+    "count": 1,
+    "id": "casualness_delight:green_tongue"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.va11halla.casualness_delight.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "casualness_delight.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

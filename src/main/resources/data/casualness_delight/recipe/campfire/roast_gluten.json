@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "casualness_delight:gluten_skewer"
+  },
+  "cookingtime": 600,
+  "result": {
+    "count": 1,
+    "id":"casualness_delight:roast_gluten"
+  }
+}

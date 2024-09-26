@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0,ropelogged=false": {
+      "model": "casualness_delight:block/capsicum_stage0"
+    },
+    "age=1,ropelogged=false": {
+      "model": "casualness_delight:block/capsicum_stage1"
+    },
+    "age=2,ropelogged=false": {
+      "model": "casualness_delight:block/capsicum_stage2"
+    },
+    "age=3,ropelogged=false": {
+      "model": "casualness_delight:block/capsicum_stage3"
+    },
+    "age=0,ropelogged=true": {
+      "model": "casualness_delight:block/capsicum_vine_stage0"
+    },
+    "age=1,ropelogged=true": {
+      "model": "casualness_delight:block/capsicum_vine_stage1"
+    },
+    "age=2,ropelogged=true": {
+      "model": "casualness_delight:block/capsicum_vine_stage2"
+    },
+    "age=3,ropelogged=true": {
+      "model": "casualness_delight:block/capsicum_vine_stage3"
+    }
+  }
+}

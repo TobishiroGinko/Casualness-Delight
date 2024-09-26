@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "casualness_delight:block/budding_capsicum_stage0"
+    },
+    "age=1": {
+      "model": "casualness_delight:block/budding_capsicum_stage1"
+    },
+    "age=2": {
+      "model": "casualness_delight:block/budding_capsicum_stage2"
+    },
+    "age=3": {
+      "model": "casualness_delight:block/budding_capsicum_stage3"
+    },
+    "age=4": {
+      "model": "casualness_delight:block/budding_capsicum_stage3"
+    }
+  }
+}

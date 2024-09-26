@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "casualness_delight:gluten"
+    }
+  },
+  "pattern": [
+    " D",
+    "l "
+  ],
+  "result": {
+    "count": 1,
+    "id": "casualness_delight:gluten_skewer"
+  }
+}

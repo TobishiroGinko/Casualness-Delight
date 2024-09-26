@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "casualness_delight:raw_donkey_meat"
+  },
+  "cookingtime": 200,
+  "result":{
+    "count": 1,
+    "id":"casualness_delight:cooked_donkey_meat"
+  }
+}

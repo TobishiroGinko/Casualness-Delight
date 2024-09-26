@@ -1,0 +1,10 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "ingredient": {
+    "item": "casualness_delight:potato_slice"
+  },
+  "cookingtime": 100,
+  "result": {
+    "id":"casualness_delight:potato_chip"
+  }
+}

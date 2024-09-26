@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "casualness_delight:capsicum",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "casualness_delight:capsicum_seeds",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}
+

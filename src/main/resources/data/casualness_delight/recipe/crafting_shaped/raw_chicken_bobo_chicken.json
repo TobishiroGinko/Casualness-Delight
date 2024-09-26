@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "tag": "c:foods/raw_chicken"
+    }
+  },
+  "pattern": [
+    " D",
+    "l "
+  ],
+  "result": {
+    "count": 1,
+    "id": "casualness_delight:raw_chicken_bobo_chicken"
+  }
+}

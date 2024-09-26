@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "casualness_delight:block/glue_pudding_plate",
+		"particle": "casualness_delight:block/glue_pudding_plate"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 1, 15],
+			"faces": {
+				"north": {"uv": [0, 14, 7, 14.5], "texture": "#0"},
+				"east": {"uv": [0, 14, 7, 14.5], "texture": "#0"},
+				"south": {"uv": [0, 14, 7, 14.5], "texture": "#0"},
+				"west": {"uv": [0, 14, 7, 14.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 7, 7], "texture": "#0"},
+				"down": {"uv": [0, 7, 7, 14], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "base",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

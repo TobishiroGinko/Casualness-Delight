@@ -1,0 +1,10 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "ingredient": {
+    "tag": "c:foods/dough"
+  },
+  "cookingtime": 100,
+  "result": {
+    "id":"casualness_delight:fired_cake"
+  }
+}

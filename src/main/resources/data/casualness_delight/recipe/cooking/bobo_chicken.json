@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "casualness_delight:raw_cabbage_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_cabbage_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_potato_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_potato_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_chicken_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_chicken_bobo_chicken"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "casualness_delight:bobo_chicken"
+  },
+  "container": {
+    "count": 1,
+    "id": "casualness_delight:capsicum_sauce"
+  },
+  "cookingtime": 200
+}

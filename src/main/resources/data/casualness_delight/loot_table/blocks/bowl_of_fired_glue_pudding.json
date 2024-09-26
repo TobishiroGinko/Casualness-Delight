@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "casualness_delight:bowl_of_fired_glue_pudding",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "casualness_delight:bowl_of_fired_glue_pudding",
+              "properties": {
+                "servings": "5"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pool2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:block_state_property",
+            "block": "casualness_delight:bowl_of_fired_glue_pudding",
+            "properties": {
+              "servings": "5"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

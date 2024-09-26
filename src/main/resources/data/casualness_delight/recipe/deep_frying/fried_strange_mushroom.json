@@ -1,0 +1,15 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "ingredient": [
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    }
+  ],
+  "cookingtime": 100,
+  "result": {
+    "id":"casualness_delight:fired_strange_mushroom"
+  }
+}

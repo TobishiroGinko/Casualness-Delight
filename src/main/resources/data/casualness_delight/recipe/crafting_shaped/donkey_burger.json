@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "casualness_delight:cooked_donkey_meat"
+    },
+    {
+      "tag": "c:foods/breads"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "casualness_delight:donkey_burger"
+  }
+}

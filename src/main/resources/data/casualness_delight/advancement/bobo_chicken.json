@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "item": "casualness_delight:bobo_chicken"
+    },
+    "title": {
+      "translate": "casualness_delight.advancement.consume_bobo_chicken"
+    },
+    "description": {
+      "translate": "casualness_delight.advancement.consume_bobo_chicken_description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "casualness_delight:block/deep_frying_pan",
+  "criteria": {
+    "chicken_bobo_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item":
+        {
+          "items": [
+            "casualness_delight:chicken_bobo_chicken"
+          ]
+        }
+      }
+    },
+    "cabbage_bobo_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item":
+        {
+          "items": [
+            "casualness_delight:cabbage_bobo_chicken"
+          ]
+        }
+      }
+    },
+    "potato_bobo_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item":
+        {
+          "items": [
+            "casualness_delight:potato_bobo_chicken"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chicken_bobo_chicken",
+      "cabbage_bobo_chicken",
+      "potato_bobo_chicken"
+    ]
+  ]
+}
