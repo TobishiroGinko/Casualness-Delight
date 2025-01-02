@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "casualness_delight:cheese_wheel"
+    }
+  ],
+  "result": [
+    {
+      "count": 7,
+      "item": "casualness_delight:cheese_wheel_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
