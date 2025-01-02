@@ -4,51 +4,67 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.item.ItemStack;
 
 public class RottenEffect extends MobEffect {
-    public final RandomSource random = RandomSource.create();
     public RottenEffect() {
-        super(MobEffectCategory.HARMFUL, 0);
+        super(MobEffectCategory.HARMFUL, 0x6F4D1B);
     }
 
+    // Adapted from Mob#isSunBurnTick
+    @SuppressWarnings("deprecation")
+    private boolean isBurnTick(Entity entity, RandomSource random) {
+        if (entity.getCommandSenderWorld().isDay()) {
+            float lightVal = entity.getLightLevelDependentMagicValue();
+            return (
+                lightVal > 0.5F &&
+                random.nextFloat() * 30.0F < (lightVal - 0.4F) * 2.0F &&
+                !(entity.isInWaterRainOrBubble() || entity.isInPowderSnow || entity.wasInPowderSnow) &&
+                entity.getCommandSenderWorld().canSeeSky(BlockPos.containing(entity.getX(), entity.getEyeY(), entity.getZ()))
+            );
+        }
+        return false;
+    }
+
+    // Adapted from Zombie#aiStep
+    // Can be applied to any LivingEntity that isn't fire immune or a Zombie
+    // amplifier ignored
+    @Override
     public void applyEffectTick(LivingEntity entity, int amplifier) {
-        boolean SunSensitive = false;
-        if (!entity.getCommandSenderWorld().isClientSide && entity instanceof Player player) {
-            if (player.isAlive()) {
-                if (player.level().isDay() && !player.level().isClientSide) {
-                    float f = player.getLightLevelDependentMagicValue();
-                    BlockPos blockpos = BlockPos.containing(player.getX(), player.getEyeY(), player.getZ());
-                    boolean flag = player.isInWaterRainOrBubble() || player.isInPowderSnow || player.wasInPowderSnow;
-                    if (f > 0.5F && this.random.nextFloat() * 30.0F < (f - 0.4F) * 2.0F && !flag && player.level().canSeeSky(blockpos)) {
-                        SunSensitive = true;
-                    }
-                }
-            }
-            boolean flags = SunSensitive;
-            if (flags) {
-                ItemStack itemstack = player.getItemBySlot(EquipmentSlot.HEAD);
+        if (
+            !entity.getCommandSenderWorld().isClientSide() &&
+            entity.isAlive() &&
+            entity.getHealth() > 0.0F &&
+            !entity.fireImmune() &&
+            !(entity instanceof Zombie)
+        ) {
+            RandomSource random = entity.getRandom();
+            boolean sunSensitive = (entity instanceof Mob mob) ? mob.isSunBurnTick() : isBurnTick(entity, random);
+            if (sunSensitive && entity.hasItemInSlot(EquipmentSlot.HEAD)) {
+                ItemStack itemstack = entity.getItemBySlot(EquipmentSlot.HEAD);
                 if (!itemstack.isEmpty()) {
                     if (itemstack.isDamageableItem()) {
-                        itemstack.setDamageValue(itemstack.getDamageValue() + this.random.nextInt(2));
+                        itemstack.setDamageValue(itemstack.getDamageValue() + random.nextInt(2));
                         if (itemstack.getDamageValue() >= itemstack.getMaxDamage()) {
-                            player.broadcastBreakEvent(EquipmentSlot.HEAD);
-                            player.setItemSlot(EquipmentSlot.HEAD, ItemStack.EMPTY);
+                            entity.broadcastBreakEvent(EquipmentSlot.HEAD);
+                            entity.setItemSlot(EquipmentSlot.HEAD, ItemStack.EMPTY);
                         }
                     }
-
-                    flags = false;
+                    sunSensitive = false;
                 }
-
-                if (flags) {
-                    player.setSecondsOnFire(8);
-                }
+            }
+            if (sunSensitive) {
+                entity.setSecondsOnFire(8);
             }
         }
     }
+
+    @Override
     public boolean isDurationEffectTick(int duration, int amplifier) {
         return true;
     }
