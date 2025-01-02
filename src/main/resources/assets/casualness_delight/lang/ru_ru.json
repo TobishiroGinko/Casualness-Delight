@@ -18,7 +18,6 @@
 	"block.casualness_delight.quiche_lorraine": "Киш Лорен",
 	"block.casualness_delight.raw_cheese_wheel": "Сырой сырный круг",
 	"block.casualness_delight.cheese_wheel": "Сырный круг",
-	"effect.casualness_delight.rotten": "Гниль",
 	"casualness_delight.advancement.consume_beef_noodles": "Убей этого из Шицзячжуана",
 	"casualness_delight.advancement.consume_beef_noodles_description": "Хотите попробовать настоящую аньхойскую говяжью лапшу?",
 	"casualness_delight.advancement.consume_stargazy_pie_slice": "Глаза рыбы вспыхнули жутким светом",
@@ -57,5 +56,7 @@
 	"casualness_delight.advancement.consume_bobo_chicken_description": "Bo Bo Chicken~Bo Bo Bo Bo Chicken~Bo Bo chicken skewers for one~",
 	"casualness_delight.advancement.place_deep_frying_pan": "Crying greedily for the child next door！",
 	"casualness_delight.advancement.place_deep_frying_pan_description": "Wrap in a coat and fry until golden brown! The children next door are all crying and craving!",
+	"effect.casualness_delight.rotten": "Гниль",
+	"effect.casualness_delight.rotten.description": "Makes the entity catch fire in direct sunlight.",
 	"casualness_delight.jei.deep_frying": "Deep Frying"
 }

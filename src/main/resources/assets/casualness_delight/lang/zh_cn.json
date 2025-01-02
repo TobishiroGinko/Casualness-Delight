@@ -45,7 +45,6 @@
   "block.casualness_delight.plate_of_fried_dumpling":"盘装大炸饺",
   "block.casualness_delight.sweet_rice":"八宝饭",
   "block.casualness_delight.spring_roll_medley":"春卷拼盘",
-  "effect.casualness_delight.rotten": "腐坏",
   "casualness_delight.advancement.consume_stargazy_pie_slice": "仰望星空还是死不瞑目？",
   "casualness_delight.advancement.consume_stargazy_pie_slice_description": "酥皮派上的鱼，眼睛中闪烁着诡异的光...相信我，你不会想吃它的，除非你想见识真正的黑暗...",
   "casualness_delight.advancement.get_cheese_wheel":"芝士，与你分享",
@@ -55,5 +54,7 @@
   "casualness_delight.advancement.consume_bobo_chicken_description": "钵钵鸡~钵呀钵钵鸡~一元一串的钵钵鸡~",
   "casualness_delight.advancement.place_deep_frying_pan": "馋哭隔壁的小孩！",
   "casualness_delight.advancement.place_deep_frying_pan_description":"裹上面衣，炸至金黄！隔壁的小孩都馋哭了！",
+  "effect.casualness_delight.rotten": "腐坏",
+  "effect.casualness_delight.rotten.description": "Makes the entity catch fire in direct sunlight.",
   "casualness_delight.jei.deep_frying": "油炸"
 }
