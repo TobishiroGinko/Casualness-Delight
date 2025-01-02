@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "casualness_delight:quiche_lorraine"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "casualness_delight:quiche_lorraine_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -45,7 +45,6 @@
     "block.casualness_delight.plate_of_fried_dumpling": "Тарілка смажених вареників",
     "block.casualness_delight.sweet_rice": "Солодкий рис",
     "block.casualness_delight.spring_roll_medley": "Тарілка весняного рулета",
-    "effect.casualness_delight.rotten": "Гнилість",
     "casualness_delight.advancement.consume_stargazy_pie_slice": "Риба смердить з голови",
     "casualness_delight.advancement.consume_stargazy_pie_slice_description": "Пиріг з листкового тіста з моторошним блиском в очах риби на ньому, повірте, вам не захочеться його їсти...",
     "casualness_delight.advancement.get_cheese_wheel": "Сир тобі й для мене",
@@ -55,5 +54,7 @@
     "casualness_delight.advancement.consume_bobo_chicken_description": "Бо бо курка~Бо бо бо бо курка~Бо бо курка тільки для одного~",
     "casualness_delight.advancement.place_deep_frying_pan": "Сусідські діти жадібно плачуть!",
     "casualness_delight.advancement.place_deep_frying_pan_description": "Загортаємо в шубу і смажимо до золотистої скоринки! Сусідські діти всі плачуть і жадають!",
+    "effect.casualness_delight.rotten": "Гнилість",
+    "effect.casualness_delight.rotten.description": "Makes the entity catch fire in direct sunlight.",
     "casualness_delight.jei.deep_frying": "Смаження у фритюрі"
 }
